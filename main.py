@@ -13,7 +13,7 @@ class BaseContact:
 
     def contact(self):
         print(
-            f"Wybieram numer +48 {self.phone_number} i dzwonię do {self.name} {self.surname}."
+            f"Wybieram numer {self.phone_number} i dzwonię do {self.name} {self.surname}."
         )
 
     @property
@@ -30,7 +30,7 @@ class BusinessContact(BaseContact):
 
     def contact(self):
         print(
-            f"Wybieram numer +48 {self.work_number} i dzwonię do {self.name} {self.surname}."
+            f"Wybieram numer {self.work_number} i dzwonię do {self.name} {self.surname}."
         )
 
 
